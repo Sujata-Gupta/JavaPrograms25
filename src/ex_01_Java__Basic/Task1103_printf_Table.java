@@ -25,6 +25,9 @@ public class Task1103_printf_Table {
         count++;
         System.out.printf("%d X %d = %d%n",n,count,n*count);
 
+        System.out.printf("%d X %d = %d%n",n,count,n*count);
+
+
 
     }
 }
