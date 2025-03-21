@@ -9,7 +9,7 @@ public class Task2103_Fibonacci {
         int n=sc.nextInt();
         int a=0;
         int b=1;
-       // int c=2;
+
         System.out.print(a+" ");
         System.out.print(b+" ");
 
@@ -28,13 +28,6 @@ public class Task2103_Fibonacci {
             b=next;
             next=a+b;
             System.out.print(next+" ");
-
-
-
-
-
-
-
 
         }
 
