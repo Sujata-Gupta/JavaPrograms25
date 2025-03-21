@@ -8,12 +8,33 @@ public class Task2103_Fibonacci {
         System.out.println("Enter number");
         int n=sc.nextInt();
         int a=0;
+        int b=1;
+       // int c=2;
         System.out.print(a+" ");
-        int sum;
-        for(int i=1;i<=n;i++)
+        System.out.print(b+" ");
+
+
+
+        int next=a+b;
+
+        System.out.print(next+" ");
+        //System.out.print(c+" ");
+
+
+
+        for(int i=2;i<=n;i++)
         {
-            sum=(i-1)+i;
-            System.out.print(sum+" ");
+            a=b;
+            b=next;
+            next=a+b;
+            System.out.print(next+" ");
+
+
+
+
+
+
+
 
         }
 
