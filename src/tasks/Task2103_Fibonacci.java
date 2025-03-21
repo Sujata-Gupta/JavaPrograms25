@@ -14,13 +14,9 @@ public class Task2103_Fibonacci {
         System.out.print(a+" ");
         System.out.print(b+" ");
 
-
-
         int next=a+b;
 
         System.out.print(next+" ");
-        //System.out.print(c+" ");
-
 
         for(int i=2;i<=n;i++)
         {
