@@ -7,6 +7,7 @@ public class Task2103_Fibonacci {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number");
         int n=sc.nextInt();
+        sc.close();
         int a=0;
         int b=1;
 
@@ -19,7 +20,6 @@ public class Task2103_Fibonacci {
 
         System.out.print(next+" ");
         //System.out.print(c+" ");
-
 
 
         for(int i=2;i<=n;i++)
