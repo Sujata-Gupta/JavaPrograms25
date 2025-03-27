@@ -1,4 +1,4 @@
-package ex_01_Java__Basic;
+package tasks;
 
 public class Task1103_printf_Table {
     public static void main(String[] args) {
