@@ -6,11 +6,11 @@ public class Switch {
 
     public static void main(String[] args) {
 
-//        Scanner sc=new Scanner(System.in);
-//        System.out.println("Enter day from 1to7");
-//        int day=sc.nextInt();
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter day from 1to7");
+        int day=sc.nextInt();
 
-        int day=Integer.parseInt(args[0]);
+       // int day=Integer.parseInt(args[0]);
 
         switch (day){
             case 1:
@@ -34,8 +34,8 @@ public class Switch {
             case 7:
                 System.out.println("Sunday");
                 break;
-            default:
-                System.out.println("Invalid input!");
+//            default:
+//                System.out.println("Invalid input!");
 
         }
 

@@ -15,5 +15,7 @@ public class ExplicitCasting {
         short s = (short) phone_no; // Explicit Casting - Narrowing
         System.out.println(s);
 
+
+
     }
 }
