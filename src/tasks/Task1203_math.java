@@ -8,13 +8,15 @@ public class Task1203_math {
         double y=10;
         double z=10;
 
-        x= Math.pow(x,2);
+        double result=Math.cbrt(Math.pow(x,2)+(Math.pow(y,2)-Math.abs(z)));
+
+        /*x= Math.pow(x,2);
         y= Math.pow(y,2);
         z= abs(z);
         double a=y-z;
         double b= x+a;
-        b= cbrt(b);
-        System.out.println(b);
+        double result= cbrt(b);*/
+        System.out.println(result);
 
     }
 }
