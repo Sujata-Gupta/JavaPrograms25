@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class Grade_Calculator {
+public class Task1303_Grade_Calculator {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 System.out.print("Enter your number out of 100");
