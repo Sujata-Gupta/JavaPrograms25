@@ -1,6 +1,6 @@
 package tasks;
 
-public class Task2103 {
+public class Task2103_FizzBuzzTest {
     public static void main(String[] args) {
         for(int i=1;i<=100;i++)
         {
