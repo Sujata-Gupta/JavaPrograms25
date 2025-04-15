@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class Task2103_Fibonacci {
+public class Task2003_Fibonacci {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number");
