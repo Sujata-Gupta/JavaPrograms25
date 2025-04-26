@@ -1,6 +1,6 @@
 package tasks;
 
-public class Tas2703_Array2ndhighest {
+public class Task2703_Array2ndhighest {
     public static void main(String[] args) {
         int[] a={1,2,5,6,7,9,65};
                 int temp=0;
