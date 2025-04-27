@@ -2,7 +2,7 @@ package tasks.tasks;
 
 import java.util.Scanner;
 
-public class task2803_Pyramid_pattern_in_Java {
+public class Task2803_Pyramid_pattern_in_Java {
     public static void main(String[] args) {
      //      *
       //    ***
