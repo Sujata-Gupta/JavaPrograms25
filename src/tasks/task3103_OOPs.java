@@ -41,8 +41,7 @@ public class task3103_OOPs {
             System.out.println("is married " + a);
         }
 
-        int Contactupdate(int phone)
-        {
+        int Contactupdate(int phone) {
             return phone;
         }
 
