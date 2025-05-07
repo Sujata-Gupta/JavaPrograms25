@@ -1,4 +1,4 @@
-package tasks.task0404_OoPS.Encapsulation;
+package tasks.task0404_OoPS.Encapsulation_;
 
 public class Inheritance {
     public static void main(String[] args) {

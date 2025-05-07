@@ -1,4 +1,4 @@
-package tasks.task0404_OoPS.Encapsulation;
+package tasks.task0404_OoPS.Encapsulation_;
 
 public class poly {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class poly {
         s3.SchoolName();
     }
 }
+
 class School
 {
     //overloading
