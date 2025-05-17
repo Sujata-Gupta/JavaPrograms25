@@ -1,3 +1,5 @@
+package ZPractice_JavaCoding;
+
 import java.util.HashMap;
 import java.util.Map;
 

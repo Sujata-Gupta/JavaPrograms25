@@ -20,10 +20,26 @@ public class Bank {
     private String currency;
     private Integer amount;
 
-    public Integer add(Bank bankname)
-    {
-        return bankname.amount+this.amount;
-
-
+    public Integer add(Bank bankname) {
+        if (bankname.currency.equals("INR")) {
+            return bankname.amount + this.amount;
+        } else {
+            try {
+                throw new currencyMismatchCustomException("Currency Mismatch");
+            } catch (currencyMismatchCustomException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        return 0;
     }
+class currencyMismatchCustomException extends Exception{
+
+            currencyMismatchCustomException(String msg)
+            {
+                super(msg);
+            }
+
+}
+
+
 }
